@@ -1,0 +1,363 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: lightgray;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #ffffff;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 30px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1400px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #222222;
+}
+
+nav a:hover {
+  color: #eb5757;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+#start {
+  background-image: url(../Images/Festivalis/Rectangle\ 2.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+#start div {
+  padding: 20px;
+}
+
+.start-header {
+  font-family: Raleway;
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.start-text {
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.button-styling {
+  border: none;
+  padding: 15px 70px;
+  margin: 10px;
+}
+
+.pink-background {
+  background: #eb5757;
+}
+
+#start button:hover {
+  cursor: pointer;
+}
+
+#text-box {
+  padding: 20px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+}
+
+#performers {
+  padding: 40px;
+}
+
+.performers-heading {
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+.dash {
+  width: 31px;
+  height: 5px;
+  background: #eb5757;
+  margin: 0 auto;
+}
+
+#performers p {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.performer-card {
+  margin: 70px;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.performer-card h3 {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.18px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.performer-card span {
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: center;
+}
+
+#galery {
+  background: #eb57571a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+#galery h3 {
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58.7px;
+  letter-spacing: 2px;
+}
+
+#galery span {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.24px;
+  width: 30%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#galery ul {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#galery li {
+  margin: 10px;
+}
+
+#tickets {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+#tickets h3 {
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58.7px;
+  letter-spacing: 2px;
+}
+
+.tickets-text {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.24px;
+  text-align: center;
+  width: 35vw;
+}
+
+.tickets-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80vw;
+  padding: 20px;
+}
+
+.tickets-card {
+  border: 1px solid #0000001a;
+  box-shadow: 0px 0px 40px 0px #0000000d;
+  background-color: #ffffff;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px 30px;
+}
+
+.tickets-card h4 {
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.83px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #0000001a;
+}
+
+.tickets-card p {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: center;
+}
+
+.tickets-card span {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.18px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.tickets-card .price {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 30.52px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #eb5757;
+}
+
+.tickets-card button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 65%;
+  width: 70%;
+  border: none;
+}
+
+#location {
+  background: #eb57571a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+#location span {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.24px;
+  text-align: center;
+  width: 30vw;
+  margin-bottom: 20px;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#contact div {
+  margin-top: 10px;
+  width: 15%;
+}
+
+#contact label {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+}
+
+#contact input {
+  border: none;
+  width: 100%;
+  padding: 5px;
+}
+
+#contact button {
+  margin: 20px;
+  padding: 5px 60px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #ffffff;
+}
