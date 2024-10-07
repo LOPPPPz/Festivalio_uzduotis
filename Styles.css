@@ -44,12 +44,16 @@ a {
   color: #222222;
 }
 
-nav a:hover {
+a:hover {
   color: #eb5757;
 }
 
 h3 {
   text-transform: uppercase;
+}
+
+button {
+  cursor: pointer;
 }
 
 #start {
@@ -350,6 +354,12 @@ h3 {
 #contact button {
   margin: 20px;
   padding: 5px 60px;
+}
+
+iframe {
+  width: 1200px;
+  height: 450px;
+  border: none;
 }
 
 footer {
